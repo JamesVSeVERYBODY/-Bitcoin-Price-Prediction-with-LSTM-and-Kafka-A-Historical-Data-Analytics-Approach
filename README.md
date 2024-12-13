@@ -64,3 +64,13 @@ This project predicts Bitcoin prices using a **Long Short-Term Memory (LSTM)** n
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/bitcoin-price-prediction.git
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the producer and consumer:
+   ```bash
+   python streamcrypto.py
+   python consumercrypto.py
+4. Train the LSTM Model
+  ```bash
+   jupyter notebook BTC_Forecast.ipynb
